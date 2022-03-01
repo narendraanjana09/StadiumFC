@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <TableRow >
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Narendra Singh Aanjna"
+            android:background="@drawable/border"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="12-12-12"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/border"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="22:22 AM"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/border"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:gravity="center"/>
+    </TableRow>
+</TableLayout>

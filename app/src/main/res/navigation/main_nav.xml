@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.nsa.stadiumfc.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/takeAttendanceFragment"
+        android:name="com.nsa.stadiumfc.fragments.TakeAttendanceFragment"
+        android:label="fragment_take_attendance"
+        tools:layout="@layout/fragment_take_attendance" />
+    <fragment
+        android:id="@+id/viewAttendanceFragment"
+        android:name="com.nsa.stadiumfc.fragments.ViewAttendanceFragment"
+        android:label="fragment_view_attendance"
+        tools:layout="@layout/fragment_view_attendance" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nsa.stadiumfc.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
